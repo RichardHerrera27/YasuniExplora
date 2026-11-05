@@ -6,4 +6,8 @@ public class RegularTour extends Tour {
         super(code, name);
     }
 
+    public String showInfo() {
+        System.out.println("sistema funcionado");
+        return "";
+    }
 }

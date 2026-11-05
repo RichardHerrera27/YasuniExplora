@@ -1,13 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.mycompany.yasuniexplora.objetos;
 
-/**
- *
- * @author HP
- */
-public class InterpretiveTour {
-    
+public class InterpretiveTour extends Tour {
+
+    public InterpretiveTour(int code, String name) {
+        super(code, name);
+    }
+
 }

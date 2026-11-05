@@ -1,16 +1,17 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.mycompany.yasuniexplora;
 
-/**
- *
- * @author HP
- */
+import com.mycompany.yasuniexplora.implementacion.ImplementationRegularTour;
+import com.mycompany.yasuniexplora.interfaces.InterfazRegularTour;
+import com.mycompany.yasuniexplora.objetos.RegularTour;
+
 public class YasuniExplora {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+
+        RegularTour regularTour = new RegularTour(1, "limoncocha");
+        InterfazRegularTour regularTour1 = new ImplementationRegularTour();
+
+        regularTour1.showInfo();
+
     }
 }

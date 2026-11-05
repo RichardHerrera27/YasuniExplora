@@ -1,13 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.mycompany.yasuniexplora.implementacion;
 
-/**
- *
- * @author HP
- */
-public class ImplementationRegularTour {
-    
+import com.mycompany.yasuniexplora.interfaces.InterfazRegularTour;
+
+public class ImplementationRegularTour implements InterfazRegularTour {
+
+    @Override
+    public String showInfo() {
+        System.out.println("mensaje exitosos");
+        return "";
+    }
 }
